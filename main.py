@@ -128,7 +128,7 @@ counts = [nameparensecondcount,namecurlybracketsecondcount,namesquarebracketseco
 labels = ['iron (ferrous sulfate)', 'iron {ferrous sulfate}', 'iron [ferrous sulfate]', 'ferrous sulfate (iron)', 'ferrous sulfate {iron}', 'ferrous sulfate [iron]', 'iron', 'ferrous sulfate']
 
 
-figure = plt.figure(figsize = (8,8))
+figure = plt.figure(figsize = (5,5))
 plt.xlabel("Formatting Differences")
 plt.ylabel("Count")
 plt.xticks(rotation=90)
